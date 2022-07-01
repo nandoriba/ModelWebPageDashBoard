@@ -70,8 +70,9 @@
             <div class="topbar">
                 <div class="toggle" onclick="toggleMenu();"></div>
                 <div class="search">
-                    <label>
+                    <label>                        
                         <input type="text" placeholder="Search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
                     </label>
                 </div>
                 <div class="user">
@@ -86,7 +87,8 @@
     <script>
         function toggleMenu() {
             document.querySelector('.toggle').classList.toggle('active'); 
-            document.querySelector('.navegation').classList.toggle('active'); 
+            document.querySelector('.navigation').classList.toggle('active'); 
+            document.querySelector('.main').classList.toggle('active');
         }
     </script>
 </body>
