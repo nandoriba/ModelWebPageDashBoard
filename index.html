@@ -70,24 +70,139 @@
             <div class="topbar">
                 <div class="toggle" onclick="toggleMenu();"></div>
                 <div class="search">
-                    <label>                        
+                    <label>
                         <input type="text" placeholder="Search">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </label>
                 </div>
                 <div class="user">
-                    <img src="img/user.png" alt="">                     
+                    <img src="img/user.png" alt="">
                 </div>
             </div>
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">1,042</div>
+                        <div class="cardName">Daily Views</div>
+                    </div>
+                    <div class="iconBox">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">80</div>
+                        <div class="cardName">sales</div>
+                    </div>
+                    <div class="iconBox">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">208</div>
+                        <div class="cardName">Comments</div>
+                    </div>
+                    <div class="iconBox">
+                        <i class="fa-solid fa-comment"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">$6,042</div>
+                        <div class="cardName">Earning</div>
+                    </div>
+                    <div class="iconBox">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="details">
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Recente Orders</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Price</td>
+                                <td>Payment</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>Windows Coolers</td>
+                                <td>$110</td>
+                                <td>Due</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>Speakers/td>
+                                <td>$620</td>
+                                <td>Paid</td>
+                                <td><span class="status returned">Returned</span></td>
+                            </tr>
+                            <tr>
+                                <td>Hd Laptop/td>
+                                <td>$4200</td>
+                                <td>Due</td>
+                                <td><span class="status inprogress">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>Windows Coolers</td>
+                                <td>$110</td>
+                                <td>Due</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>Speakers/td>
+                                <td>$620</td>
+                                <td>Paid</td>
+                                <td><span class="status returned">Returned</span></td>
+                            </tr>
+                            <tr>
+                                <td>Hd Laptop/td>
+                                <td>$4200</td>
+                                <td>Due</td>
+                                <td><span class="status inprogress">In Progress</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="recentCustomers">
+                    <div class="cardHeader">
+                        <h2>Recent Customers</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                    <table>
+                        
+                    </table>
+                </div>
+            </div>
+
         </div>
-
     </div>
-
 
     <script>
         function toggleMenu() {
-            document.querySelector('.toggle').classList.toggle('active'); 
-            document.querySelector('.navigation').classList.toggle('active'); 
+            document.querySelector('.toggle').classList.toggle('active');
+            document.querySelector('.navigation').classList.toggle('active');
             document.querySelector('.main').classList.toggle('active');
         }
     </script>
